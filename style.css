@@ -148,6 +148,23 @@ h2{
     font-weight: 600;
     font-size: 36px;
 }
+@media only screen and (max-width: 984px) {
+
+    /* .flex-2{
+    display: flex;
+    justify-content: space-between;
+   } */
+    .navbar-expand-md .navbar-toggler {
+        /* displafy: none !important; */
+    }
+
+    .gap1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
 .para-3{
     color: #FFFFFF;
     font-weight: 400;
